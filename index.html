@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zikra PSK</title>
 
+    <!-- Icon css -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <!-- Slider Cdn css Section  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
@@ -14,77 +17,127 @@
     <link rel="stylesheet" href="/css/style.css">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="/css/res.css">
 </head>
 <body>
     <!-- Header section start -->
-    <div class="header">
-        <nav > 
-            <a href="#" class="logo" data-aos="fade-right" ><img src="/img/logo-dark.png" id="logo" alt=""></a>
-            <ul data-aos="fade-down">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Worker</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <header>
+      <div class="navbar">
+        <div class="logo"><img src="/img/logo-dark.png" alt=""></div>
+        <ul class="links">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Sarvices</a></li>
+          <li><a href="#">Review</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+                    <!-- Theme Change section start -->
+
+                    <div class="toggle-btn"  id="btn" >
+                      <span id="btntext">Light</span>
+                      <img src="/img/sun.png" id="btnicon" alt="">
+                  </div>
+
+                  <!-- Theme Change secion end -->
+                  <div class="toggle_btn">
+                    <i class='bx bx-menu' id="menu-icon"></i>
+                  </div>
+      
+                  
+      </div>
 
 
-            <!-- Theme Change section start -->
+      <div class="droupdown_menu">
+        <li><a href="#" class="active">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
+        <li>
+          <div class="toggle-btn" data-aos="fade-left" id="btn" >
+          <span id="btntext">Light</span>
+          <img src="/img/sun.png" id="btnicon" alt="">
+          </div>
+      </div>
+    </header>
+        
 
-            <div class="toggle-btn" data-aos="fade-left" id="btn" >
-                <span id="btntext">Light</span>
-                <img src="/img/sun.png" id="btnicon" alt="">
+
+
+
+
+         <div class="header_contant">
+
+          <div class="office-content" data-aos="fade-right">
+            <h1 >Welcome!</h1>
+            <div class="chip">
+              <img src="img/me.jpg" alt="Person" width="96" height="96">
+              Samsa
             </div>
+            <h2>Zikra Passport <br> And Data Managment <br> Center</h2>
 
-            <!-- Theme Change secion end -->
-        </nav>
-
-        <div class="office-content" data-aos="fade-right">
-            <h1 >Hello!</h1>
-            <h1><span> I'm </span> Samsa</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi palias officia unde, eum exercitationem et dolores quaerat a amet aliquam, aperiam sint!</p>
-            <a href="#">Hire me</a>
+            <div class="social_media-icon">
+              <a href=""><i class='bx bxl-facebook' ></i></a>
+              <a href=""><i class='bx bxl-instagram'></i></a>
+              <a href=""><i class='bx bxl-twitter'></i></a>
+            </div>
         </div>
 
 
-        <div class="image-box" >
-            <img src="/img/main.png" data-aos="zoom-in" alt="">
-            <div class="pattern">
-                <img src="/img/background.png"  alt="">
-                <img src="/img/background.png" alt="">
-            </div>
+        <div class="first_main_img">
+          <div class="first_main_content">
+              <img src="/img/lodu.jpg" alt="">
+              <h1>Hey, I'm Nihal <br><span>VFX ARTIST</span></h1>
+          </div>
+      </div>
         </div>
-
+      
        
-    </div>
+    
      <!-- Header section end -->
 
 
 
      <!-- About office section start -->
+     <div class="prellex_content">
+      <div class="parallax">
+        <div class="heading" data-aos="fade-up">
+          <h1>About Office</h1>
+        </div>
 
-     <div class="heading" data-aos="fade-up">
-        <h1>About Office</h1>
-     </div>
-
-     <div class="main-box">
-        <div class="card">
-            <div class="imgbox" data-aos="fade-right">
-                <img src="/img/lodu.jpg" class="shake" alt="">
-            </div>
-            <div class="detail-box" data-aos="fade-left">
-                <div class="detail">
-                    <h2>Responsive Card</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at adipisci, sint ab nemo suscipit esse, distinctio sapiente quae blanditiis dolorem dolorum voluptatem sunt voluptatum dolore ullam necessitatibus voluptate quisquam vitae eum. Ut molestiae accusantium dicta sapiente! Nulla, quidem culpa?</p>
-                    <a href="#">Read More</a>
+ 
+          <div class="main-box">
+            <div class="card">
+                <div class="imgbox" data-aos="fade-right">
+                    <img src="/img/lodu.jpg" class="shake" alt="">
+                </div>
+                <div class="detail-box" data-aos="fade-left">
+                    <div class="detail">
+                        <h2>Responsive Card</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at adipisci, sint ab nemo suscipit esse, distinctio sapiente quae blanditiis dolorem dolorum voluptatem sunt voluptatum dolore ullam necessitatibus voluptate quisquam vitae eum. Ut molestiae accusantium dicta sapiente! Nulla, quidem culpa?</p>
+                        <a href="#">Read More</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+      </div>
+
+
+     
 
      <!-- About office section end -->
 
 
      <!-- Team section start -->
+
+     <div class="heading" data-aos="fade-up">
+      <h1>Our Team Member</h1>
+    </div>
+
 
 
 
@@ -118,6 +171,9 @@
 
 
      <!-- Third section start -->
+
+
+     
         <div class="flip-card" data-aos="fade-left">
             <div class="img-box">
                 <img src="/img/razi.jpg" alt="">
@@ -148,89 +204,93 @@
      <!-- Services Section Start -->
 
 
-     <div class="timeline">
+     <div class="prellex_content_2">
+      <div class="parallax_2">
+        <div class="timeline">
 
 
-        <!-- First section start -->
-        <div class="first-container left-container" >
-            <img src="/img/avlad.jpg">
-            <div class="text-box" >
-                <h2>Mr. Adarsh & avlad</h2>
-                <small>(Self-Employed, B.A)</small>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius accusamus quam dignissimos placeat et enim officiis voluptas odit explicabo, repellendus ex nihil commodi voluptates eum cupiditate! Fugit, nobis laboriosam.</p>
-                <span class="left-container-arrow"></span>
-
-            </div>
-        </div>
-        <!-- First section end -->
-
-
-
-        <!-- Second section start -->
-        <div class="first-container right-container">
-            <img src="/img/swapnill.jpg">
-            <div class="text-box">
-                <h2>Mrs. Swapnill singh & Osab</h2>
-                <small>(Kamil, Fazil, Moallim)</small>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius accusamus quam dignissimos placeat et enim officiis voluptas odit explicabo, repellendus ex nihil commodi voluptates eum cupiditate! Fugit, nobis laboriosam.</p>
-                <span class="right-container-arrow"></span>
-            </div>
-        </div>
-        <!-- Second section end -->
-
-
-        <!-- Third section start -->
-        <div class="first-container left-container">
-            <img src="/img/lodu.jpg">
-            <div class="text-box">
-                <h2>Mr. Nihal Quraishi</h2>
-                <small>(B.A, M.A, B.ed, P.H.D)😘</small>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius accusamus quam dignissimos placeat et enim officiis voluptas odit explicabo, repellendus ex nihil commodi voluptates eum cupiditate! Fugit, nobis laboriosam.</p>
-                <span class="left-container-arrow"></span>
-            </div>
-        </div>
-        <!-- Third section end -->
-
-
-        <!-- Fourth section start -->
-        <div class="first-container right-container">
-            <img src="/img/ganda.jpg">
-            <div class="text-box">
-                <h2>Harshit Gupta & ganda</h2>
-                <small>(B.sc, D.EL.ED)😊</small>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius accusamus quam dignissimos placeat et enim officiis voluptas odit explicabo, repellendus ex nihil commodi voluptates eum cupiditate! Fugit, nobis laboriosam.</p>
-                <span class="right-container-arrow"></span>
-            </div>
-        </div>
-        <!-- Fourth section end -->
-
-
-        <!-- Fifth section start -->
-        <div class="first-container left-container">
-            <img src="/img/bacha.jpg">
-            <div class="text-box">
-                <h2>Mr. Yograndra & Monster</h2>
-                <small>(B.sc, G.N.M)🥰</small>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius accusamus quam dignissimos placeat et enim officiis voluptas odit explicabo, repellendus ex nihil commodi voluptates eum cupiditate! Fugit, nobis laboriosam.</p>
-                <span class="left-container-arrow"></span>
-            </div>
-        </div>
-        <!-- Fifht section end -->
-
-
-        <!-- Six section start -->
-        <div class="first-container right-container">
-            <img src="/img/me.jpg">
-            <div class="text-box">
-                <h2>$amsa.programmer</h2>
-                <h4>Computer Science Engineer😎</h4>
-                <small>(Web Devloper, App Devloper, GUI Devloper)</small>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius accusamus quam dignissimos placeat et enim officiis voluptas odit explicabo, repellendus ex nihil commodi voluptates eum cupiditate! Fugit, nobis laboriosam.</p>
-                <span class="right-container-arrow"></span>
-            </div>
-        </div>
-        <!-- Six section end -->
-    </div>
+          <!-- First section start -->
+          <div class="first-container left-container" >
+              <img src="/img/avlad.jpg">
+              <div class="text-box" >
+                  <h2>Mr. Adarsh & avlad</h2>
+                  <small>(Self-Employed, B.A)</small>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius accusamus quam dignissimos placeat et enim officiis voluptas odit explicabo, repellendus ex nihil commodi voluptates eum cupiditate! Fugit, nobis laboriosam.</p>
+                  <span class="left-container-arrow"></span>
+  
+              </div>
+          </div>
+          <!-- First section end -->
+  
+  
+  
+          <!-- Second section start -->
+          <div class="first-container right-container">
+              <img src="/img/swapnill.jpg">
+              <div class="text-box">
+                  <h2>Mrs. Swapnill singh & Osab</h2>
+                  <small>(Kamil, Fazil, Moallim)</small>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius accusamus quam dignissimos placeat et enim officiis voluptas odit explicabo, repellendus ex nihil commodi voluptates eum cupiditate! Fugit, nobis laboriosam.</p>
+                  <span class="right-container-arrow"></span>
+              </div>
+          </div>
+          <!-- Second section end -->
+  
+  
+          <!-- Third section start -->
+          <div class="first-container left-container">
+              <img src="/img/lodu.jpg">
+              <div class="text-box">
+                  <h2>Mr. Nihal Quraishi</h2>
+                  <small>(B.A, M.A, B.ed, P.H.D)😘</small>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius accusamus quam dignissimos placeat et enim officiis voluptas odit explicabo, repellendus ex nihil commodi voluptates eum cupiditate! Fugit, nobis laboriosam.</p>
+                  <span class="left-container-arrow"></span>
+              </div>
+          </div>
+          <!-- Third section end -->
+  
+  
+          <!-- Fourth section start -->
+          <div class="first-container right-container">
+              <img src="/img/ganda.jpg">
+              <div class="text-box">
+                  <h2>Harshit Gupta & ganda</h2>
+                  <small>(B.sc, D.EL.ED)😊</small>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius accusamus quam dignissimos placeat et enim officiis voluptas odit explicabo, repellendus ex nihil commodi voluptates eum cupiditate! Fugit, nobis laboriosam.</p>
+                  <span class="right-container-arrow"></span>
+              </div>
+          </div>
+          <!-- Fourth section end -->
+  
+  
+          <!-- Fifth section start -->
+          <div class="first-container left-container">
+              <img src="/img/bacha.jpg">
+              <div class="text-box">
+                  <h2>Mr. Yograndra & Monster</h2>
+                  <small>(B.sc, G.N.M)🥰</small>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius accusamus quam dignissimos placeat et enim officiis voluptas odit explicabo, repellendus ex nihil commodi voluptates eum cupiditate! Fugit, nobis laboriosam.</p>
+                  <span class="left-container-arrow"></span>
+              </div>
+          </div>
+          <!-- Fifht section end -->
+  
+  
+          <!-- Six section start -->
+          <div class="first-container right-container">
+              <img src="/img/me.jpg">
+              <div class="text-box">
+                  <h2>$amsa.programmer</h2>
+                  <h4>Computer Science Engineer😎</h4>
+                  <small>(Web Devloper, App Devloper, GUI Devloper)</small>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius accusamus quam dignissimos placeat et enim officiis voluptas odit explicabo, repellendus ex nihil commodi voluptates eum cupiditate! Fugit, nobis laboriosam.</p>
+                  <span class="right-container-arrow"></span>
+              </div>
+          </div>
+          <!-- Six section end -->
+      </div>
+      </div>
+     </div>
 
      <!-- Services Section end -->
 
@@ -322,6 +382,16 @@
      <!-- Review Section end -->
 
 
+     <footer>
+      <div class="footer_content">
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.410524178316!2d80.16494131439885!3d26.150756498771088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c543e387f1ed3%3A0x1310a5ddbd60f7c2!2sZIKRA%20PASSPORT%20%26%20DATA%20MANAGEMENT%20CENTER!5e0!3m2!1sen!2sin!4v1680416709402!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+      </div>
+     </footer>
+
+
 
 
 
@@ -381,6 +451,8 @@
 
 
 <!-- End -->
+
+
 
 
 

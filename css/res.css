@@ -1,0 +1,73 @@
+@media (max-width: 900px){
+  .navbar .links,
+  .navbar .toggle-btn{
+    display: none;
+  }
+
+  .navbar .toggle_btn{
+    display: block;
+  }
+
+  .droupdown_menu
+  {
+    display: block;
+  }
+
+  .header_contant{
+    flex-direction: column;
+    max-width: 350px;
+  }
+
+  .header_contant .office-content h1
+  {
+    font-size: 20px;
+    top: 80px;
+  }
+
+  .chip
+  {
+    top: 110px;
+  }
+
+
+   .header_contant .office-content h2
+   {
+    font-size: 40px;
+    color: red;
+    top: 180px;
+   } 
+
+   .header_contant .office-content h3
+   {
+    top: 330px;
+   }
+ 
+   .first_main_img
+   {
+    margin-top: 300px;
+   }
+
+   .first_main_img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0px;
+   }
+
+
+   .teambox .flip-card{
+    width: 250px;
+   }
+
+   .footer_content{
+    height:300px ;
+    width: 100%;
+   } 
+   .footer_content .map iframe
+   {
+    width: 100%;
+    height: 300px;
+   }
+
+}

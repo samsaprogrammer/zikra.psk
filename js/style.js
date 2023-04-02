@@ -1,3 +1,19 @@
+
+// Responsive navbar section start
+  const toggleBtn = document.querySelector('#menu-icon')
+  const toggleBtnIcon = document.querySelector('.toggle_btn i')
+  const droupDownMenu = document.querySelector('.droupdown_menu')
+
+
+toggleBtn.onclick = function () {
+    droupDownMenu.classList.toggle('open')
+}
+// Responsive navbar section end
+
+
+
+
+
 // Theme Change Section start
 let btn = document.getElementById("btn");
 let btntext = document.getElementById("btntext");
@@ -20,4 +36,7 @@ btn.onclick = function(){
 }
 
 // Theme Change Section end
+
+
+
 
