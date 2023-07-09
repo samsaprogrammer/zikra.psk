@@ -38,10 +38,10 @@
    } 
 
    .header_contant .header_main_img img{
-    top: 100px;
+    top: 130px;
     right: 250px;
     position: relative;
-    width: 350px;
+    width: 370px;
     height: 300px;
    }
 
@@ -77,6 +77,11 @@
 
 footer{
   flex-direction: column;
+}
+
+.footer_content ul li{
+  margin-bottom: 30px;
+
 }
 
 .footer_map iframe{
