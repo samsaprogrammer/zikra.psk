@@ -15,7 +15,7 @@
 
   .header_contant{
     flex-direction: column;
-    height: 600px;
+    height: 700px;
   }
 
 
@@ -81,9 +81,13 @@ footer{
 
 .footer_map iframe{
   height: 300px;
-  margin-left: 20px;
+  margin-left: 25px;
   margin-top: 20px;
   width: 300px;
+}
+
+footer hr{
+  margin-left: 10px;
 }
 
 
