@@ -931,28 +931,6 @@ footer hr{
 
 
 
-/*lodeer section start*/
-
-.loader-container
-{
-    position: fixed;
-    top: 0; left: 0;
-    z-index: 10000;
-    background:black;
-    display: flex;
-    align-items:center ;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-}
-
-.loader-container.fade-out
-{
-    top: -120%;
-}
-
-/*lodeer section end */
-
 
 
 
